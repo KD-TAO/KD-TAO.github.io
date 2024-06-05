@@ -17,8 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I graduated from School of Mechanical Science and Engineering,  Huazhong University of Science and Technology, Wuhan China. with a doctor’s degree, advised by Yihua Kang and from School of Mechanical Engineering, Sichuan University, Chengdu China with a bachelor’s degree. I have published 20+ papers with 
- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+I am currently studying for a bachelor's degree in Xidian University.
 
 My research interest includes: 
 - Diffusion Model
@@ -28,7 +27,7 @@ My research interest includes:
 
 
 # 🎓 Educations 
-- *2021.9 - 2025.6*, <a href="http://english.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> School of Communication Engineering, Xidian University, Xian China. 
+- *2021.9 - 2025.6*, School of Communication Engineering, Xidian University, Xian China. 
 
  
 
