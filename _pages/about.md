@@ -56,7 +56,7 @@ My research interest includes:
 - *2022.12*  Win the `3st Prize` in the 8th China International College Students’ “Internet+” Innovation and Entrepreneurship Competition.
 - *2023.11*  Win the `3st Prize` in the 2023 China International College Students’ Innovation and Entrepreneurship Competition.
 # 🏭 Internships
-- *2023.05 - 2024.05*, UNIC Lab, Xidain University, China.
+- *2023.05 - 2024.05*, UNIC Lab, Xidian University, China.
 - *2024.06 - now*, ENCODE Lab, Westlake University, China.
 
   
