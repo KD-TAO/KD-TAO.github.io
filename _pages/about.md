@@ -56,7 +56,7 @@ My research interest includes:
 - *2022.13*  Win the `3st Prize` in the 8th China International College Students’ “Internet+” Innovation and Entrepreneurship Competition.
 
 # 🏭 Internships
-- *2018.05 - 2020.02*, Chongqing Changjiang Bearing Co., Ltd., Chongqing China.
-- *2020.11.25 - 2020.12.02*, Hubei Xinyegang Steel Ltd., Huangshi China.
-- *2017.6 - 2021.1*, Wuhan Huayu-M Testing Equipment Co., Ltd., Wuhan China.
+- *2023.05 - 2024.05*, UNIC Lab, Xidain University, China.
+- *2024.06 - now*, ENCODE Lab, Westlake University, China.
+
   
