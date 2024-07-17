@@ -41,14 +41,14 @@ My research interest includes:
 [[Github]]([https://github.com/KD-TAO/MGBFR])
 
 </div>
-</div>
+
 
 <div class='paper-box-text' markdown="1">
 
 -	Xiucheng Wang*, `Keda Tao*`,  Nan Cheng, Zhisheng Yin, Zan Li, Yuan Zhang, Xuemin (Sherman) Shen. RadioDiff: An Effective Generative Diffusion Model for Sampling-Free Dynamic Radio Map Construction. Under review, 2024.
 
 </div>
-</div>
+
 
 
 ---
