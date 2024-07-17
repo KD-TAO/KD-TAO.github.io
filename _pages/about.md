@@ -38,7 +38,14 @@ My research interest includes:
 <div class='paper-box-text' markdown="1">
 
 -	`Keda Tao`, Jinjin Gu, Yulun Zhang, Xiucheng Wang, Nan cheng. Overcoming False Illusions in Blind Face Restoration with Multi-Modal Guided Diffusion Model. Under review, 2024.
-[[HTML]](https://dx.doi.org/10.3390/s22093587) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf) [[PDF]](/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf)
+[[Github]]([https://dx.doi.org/10.3390/s22093587](https://github.com/KD-TAO/MGBFR))
+
+</div>
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+-	Xiucheng Wang*, `Keda Tao*`,  Nan Cheng, Zhisheng Yin, Zan Li, Yuan Zhang, Xuemin (Sherman) Shen. RadioDiff: An Effective Generative Diffusion Model for Sampling-Free Dynamic Radio Map Construction. Under review, 2024.
 
 </div>
 </div>
