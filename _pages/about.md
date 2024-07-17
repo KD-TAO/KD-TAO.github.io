@@ -20,8 +20,8 @@ redirect_from:
 I am currently studying for a bachelor's degree in Xidian University.
 
 My research interest includes: 
-- Diffusion Model
 - Multi-modal models
+- Efficient AI
 - Image restoration
 
 
@@ -47,9 +47,7 @@ My research interest includes:
 
 ---
 # 🏅 Honors and Awards
-- *2015.11*  Win the `1st Prize` in the 14th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works Competition.
-- *2015.06* Win the `1st Prize` in the 13rd  "Challenge Cup" Sichuan Undergraduate Curricular Academic Science and Technology Works Competition. [[Newsreport]](https://www.sc.gov.cn/10462/10778/10876/2015/7/1/10341562.shtml)
-- *2014.12* Win the `1st Prize` in the 4th National Undergraduate Engineering Training Integration Ability Competition (Sichuan Division).
+- *2022.13*  Win the `3st Prize` in the 8th China International College Students’ “Internet+” InnovationandEntrepreneurship Competition.
 
 # 💬 Conferences
 
