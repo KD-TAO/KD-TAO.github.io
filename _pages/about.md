@@ -38,7 +38,7 @@ My research interest includes:
 <div class='paper-box-text' markdown="1">
 
 -	`Keda Tao`, Jinjin Gu, Yulun Zhang, Xiucheng Wang, Nan cheng. Overcoming False Illusions in Blind Face Restoration with Multi-Modal Guided Diffusion Model. Under review, 2024.
-[[Github]]([https://dx.doi.org/10.3390/s22093587](https://github.com/KD-TAO/MGBFR))
+[[Github]]([https://github.com/KD-TAO/MGBFR])
 
 </div>
 </div>
