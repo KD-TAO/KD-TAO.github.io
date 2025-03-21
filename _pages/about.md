@@ -22,7 +22,7 @@ I am currently studying for a bachelor's degree in Xidian University.
 My research interest includes: 
 - Multi-modal models
 - Efficient AI
-- Image restoration
+- Image Restoration
 
 
 
@@ -37,24 +37,39 @@ My research interest includes:
 ---
 <div class='paper-box-text' markdown="1">
 
--	`Keda Tao`, Jinjin Gu, Yulun Zhang, Xiucheng Wang, Nan cheng. Overcoming False Illusions in Blind Face Restoration with Multi-Modal Guided Diffusion Model. [arXiv](https://arxiv.org/abs/2410.04161), 2024.
+-	`Keda Tao`, Jinjin Gu, Yulun Zhang, Xiucheng Wang, Nan cheng. Overcoming False Illusions in Blind Face Restoration with Multi-Modal Guided Diffusion Model. [ICLR](https://arxiv.org/abs/2410.04161), 2025. (Spotlight)
 [[Github]]([https://github.com/KD-TAO/MGBFR])
 
 </div>
 
+<div class='paper-box-text' markdown="1">
+
+-	`Keda Tao`, Can Qin, Haoxuan Yu, Yang Sui, Huan Wang. DyCoke: Dynamic Compression of Tokens for Fast Video Large Language Models. [CVPR](https://arxiv.org/abs/2411.15024), 2025.
+[[Github]]([https://github.com/KD-TAO/DyCoke])
+
+</div>
 
 <div class='paper-box-text' markdown="1">
 
--	Xiucheng Wang*, `Keda Tao*`,  Nan Cheng, Zhisheng Yin, Zan Li, Yuan Zhang, Xuemin (Sherman) Shen. RadioDiff: An Effective Generative Diffusion Model for Sampling-Free Dynamic Radio Map Construction. Under review, 2024.
+-	Xiucheng Wang*, `Keda Tao*`,  Nan Cheng, Zhisheng Yin, Zan Li, Yuan Zhang, Xuemin (Sherman) Shen. RadioDiff: An Effective Generative Diffusion Model for Sampling-Free Dynamic Radio Map Construction. TCCN, 2024.
+
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+-	`Keda Tao`, Haoxuan Yu, Yang Sui, Can Qin, Huan Wang. Plug-and-Play 1.x-Bit KV Cache Quantization for Video Large Language Models. [arXiv](https://arxiv.org/abs/2503.16257), 2025.
+[[Github]]([https://github.com/KD-TAO/VidKV])
+
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+-	Kejia Zhang, `Keda Tao`, Jiasheng Tang, Huan Wang. Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs. [arXiv](https://arxiv.org/abs/2501.19164), 2025.
+[[Github]]([https://github.com/KejiaZhang-Robust/VAP])
 
 </div>
 
 
-
----
-# 🏅 Honors and Awards
-- *2022.12*  Win the `3st Prize` in the 8th China International College Students’ “Internet+” Innovation and Entrepreneurship Competition.
-- *2023.11*  Win the `3st Prize` in the 2023 China International College Students’ Innovation and Entrepreneurship Competition.
 # 🏭 Internships
 - *2023.05 - 2024.05*, UNIC Lab, Xidian University, China.
 - *2024.06 - now*, ENCODE Lab, Westlake University, China.
