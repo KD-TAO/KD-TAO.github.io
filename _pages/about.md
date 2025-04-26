@@ -69,6 +69,13 @@ My research interest includes:
 
 </div>
 
+<div class='paper-box-text' markdown="1">
+
+-	Sicheng Feng, `Keda Tao`, Huan Wang. Is Oracle Pruning the True Oracle? [arXiv](https://arxiv.org/abs/2412.00143), 2025.
+[[Github]]([https://fscdc.github.io/Oracle-Pruning-Sanity-Check/])
+
+</div>
+
 
 # 🏭 Internships
 - *2023.05 - 2024.05*, UNIC Lab, Xidian University, China.
