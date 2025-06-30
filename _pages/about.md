@@ -58,7 +58,7 @@ My research interest includes:
 <div class='paper-box-text' markdown="1">
 
 -	`Keda Tao`, Haoxuan Yu, Yang Sui, Can Qin, Huan Wang. Plug-and-Play 1.x-Bit KV Cache Quantization for Video Large Language Models. [arXiv](https://arxiv.org/abs/2503.16257), 2025.
-[[Github]]([https://github.com/KD-TAO/VidKV])
+[[Github]]([https://github.com/KD-TAO/VidKV]) [[Page]]([https://kd-tao.github.io/VidKV.Web.io/])
 
 </div>
 
@@ -66,6 +66,19 @@ My research interest includes:
 
 -	Kejia Zhang, `Keda Tao`, Jiasheng Tang, Huan Wang. Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs. [arXiv](https://arxiv.org/abs/2501.19164), 2025.
 [[Github]]([https://github.com/KejiaZhang-Robust/VAP])
+
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+-	Kele Shao, `Keda Tao`, Can Qin, Haoxuan You, Yang Sui, Huan Wang. HoliTom: Holistic Token Merging for Fast Video Large Language Models. [arXiv](https://arxiv.org/abs/2505.21334), 2025.
+[[Github]]([https://github.com/cokeshao/HoliTom])
+
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+-	Haoyu Chen, `Keda Tao`, Yizao Wang, Xinlei Wang, Lei Zhu, Jinjin Gu. PhotoArtAgent: Intelligent Photo Retouching with Language Model-Based Artist Agents. [arXiv](https://arxiv.org/abs/2505.23130), 2025.
 
 </div>
 
