@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently studying for a bachelor's degree in Xidian University.
+I am a first-year PhD student at the College of Engineering, Westlake University, advised by Prof. Huan Wang.
 
-My research interest includes: 
+My research interests include: 
 - Multi-modal models
 - Efficient AI
 - Image Restoration
@@ -27,8 +27,8 @@ My research interest includes:
 
 
 # 🎓 Educations 
-- *2021.9 - 2025.6*, School of Communication Engineering, Xidian University, Xian China. 
-
+- *2021.9 - 2025.6*, School of Communication Engineering, Xidian University, Xian, China. 
+- *2025.6 - now*, College of Engineering, Westlake University, Hangzhou, China. 
  
 
 # 📝 Publications 
