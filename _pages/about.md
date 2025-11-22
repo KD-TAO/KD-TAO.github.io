@@ -24,12 +24,15 @@ My research interests include:
 - Efficient AI
 - Image Restoration
 
+# 🔥 News
 
 
-# 🎓 Educations 
-- *2021.9 - 2025.6*, School of Communication Engineering, Xidian University, Xian, China. 
-- *2025.6 - now*, College of Engineering, Westlake University, Hangzhou, China. 
- 
+- *2025.03*: **[Preprint]** We introduce [VidKV](https://arxiv.org/abs/2503.16257), a plug-and-play 1.x-bit KV Cache quantization for VideoLLMs. Code is available at [VidKV](https://github.com/KD-TAO/VidKV).
+- *2025.02*: 🎉 **[CVPR'25]** [DyCoke](https://github.com/KD-TAO/DyCoke) is accepted by CVPR'25! DyCoke is a plug-and-play token compression method for fast VideoLLMs.
+- *2025.02*: **[Preprint]** We have released the preprint of our paper [Poison as Cure](https://arxiv.org/abs/2501.19164). We propose a novel visual adversarial perturbation (VAP) method to mitigate the hallucination issue in VLMs.
+- *2025.01*: 🎉 **[ICLR'25]** [MGFR](https://arxiv.org/html/2410.04161v2): "Overcoming False Illusions in Real-World Face Restoration with Multi-Modal Guided Diffusion Model" is accepted by ICLR 2025 **Spotlight**! The [Reface-HQ](https://github.com/KD-TAO/MGFR) dataset is also released!
+- *2024.11*: **[Preprint]** We have released the preprint of our paper [DyCoke](https://github.com/KD-TAO/DyCoke).
+
 
 # 📝 Publications 
 
