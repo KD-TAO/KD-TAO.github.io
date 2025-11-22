@@ -27,7 +27,7 @@ My research interests include:
 
 # 🔥 News
 
-- *2025.11*: 🌟 **[Preprint]** A new work: [OmniZip](https://arxiv.org/abs/2511.14582) has been released. OmniZip is an audio-guided token compression method for fast OmniLLMs. The Code is available at [Repo](https://github.com/KD-TAO/OmniZip).
+- *2025.11*: 🌟 **[Preprint]** A new work: [OmniZip](https://arxiv.org/abs/2511.14582) has been released. OmniZip is an audio-guided token compression method for fast OmniLLMs. Code is available at [Repo](https://github.com/KD-TAO/OmniZip).
 - *2025.10*: **[Preprint]** We have released the preprint of [StreamingTom](https://arxiv.org/abs/2510.18269), the first token compression method for streaming setting efficient video understanding!
 - *2025.09*: 🎉 **[NeurIPS'25]** [Poison as Cure](https://arxiv.org/abs/2501.19164) and [Hilitom](https://arxiv.org/abs/2505.21334) are accepted by NeurIPS!
 - *2025.08*: 🌟 **[Survey]** We are excited to present the first systematic review of multimodal long-context token compression methods: "When Tokens Talk Too Much". [arXiv](https://arxiv.org/abs/2507.20198) [Repo](https://github.com/cokeshao/Awesome-Multimodal-Token-Compression)
