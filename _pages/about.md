@@ -27,6 +27,10 @@ My research interests include:
 # 🔥 News
 
 
+- *2025.08*: 🌟 **[Survey]** We are excited to present the first systematic review of multimodal long-context token compression methods: "When Tokens Talk Too Much". [arXiv](https://arxiv.org/abs/2507.20198) [Repo](https://github.com/cokeshao/Awesome-Multimodal-Token-Compression)
+- *2025.07*: **[Preprint]** We have released the preprint of our paper [TARS](https://arxiv.org/abs/2507.21584).
+- *2025.07*: 🎉 **[Reward]** Received the **"2025 Westlake University Xinrui Award" (西湖大学博士研究生新锐奖)**.
+- *2025.05*: **[Preprint]** We have released the preprint of [Hilitom](https://arxiv.org/abs/2505.21334): "Holistic Token Merging for Fast Video Large Language Models".
 - *2025.03*: **[Preprint]** We introduce [VidKV](https://arxiv.org/abs/2503.16257), a plug-and-play 1.x-bit KV Cache quantization for VideoLLMs. Code is available at [VidKV](https://github.com/KD-TAO/VidKV).
 - *2025.02*: 🎉 **[CVPR'25]** [DyCoke](https://github.com/KD-TAO/DyCoke) is accepted by CVPR'25! DyCoke is a plug-and-play token compression method for fast VideoLLMs.
 - *2025.02*: **[Preprint]** We have released the preprint of our paper [Poison as Cure](https://arxiv.org/abs/2501.19164). We propose a novel visual adversarial perturbation (VAP) method to mitigate the hallucination issue in VLMs.
