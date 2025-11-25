@@ -78,7 +78,7 @@ My research interests include:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Survey</div><img src='images/token_survey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[When Tokens Talk Too Much: A Survey of Multimodal Long-Context Token Compression across Images, Videos, and Audios.]([[https://arxiv.org/abs/2109.15166](https://arxiv.org/abs/2411.15024](https://arxiv.org/abs/2507.20198))) \\
+[When Tokens Talk Too Much: A Survey of Multimodal Long-Context Token Compression across Images, Videos, and Audios.](https://arxiv.org/abs/2507.20198)) \\
 Kele Shao*, `Keda Tao*`, Kejia Zhang, Sicheng Feng, Mu Cai, Yuzhang Shang, Haoxuan You, Can Qin, Yang Sui, Huan Wang. (* Equal Contribution)
 
 [**Project**](https://github.com/cokeshao/Awesome-Multimodal-Token-Compression) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=paper)](https://huggingface.co/papers/2507.20198)
