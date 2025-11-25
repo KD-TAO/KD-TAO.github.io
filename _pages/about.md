@@ -64,11 +64,26 @@ My research interests include:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/DyCoke.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Keda Tao`, Can Qin, Haoxuan Yu, Yang Sui, Huan Wang. DyCoke: Dynamic Compression of Tokens for Fast Video Large Language Models. [CVPR](https://arxiv.org/abs/2411.15024), 2025.
-[[Github]](https://github.com/KD-TAO/DyCoke)
+[DyCoke: Dynamic Compression of Tokens for Fast Video Large Language Models.]([https://arxiv.org/abs/2109.15166](https://arxiv.org/abs/2411.15024)) \\
+`Keda Tao`, Can Qin, Haoxuan Yu, Yang Sui, Huan Wang.
 
+[**Project**](https://github.com/KD-TAO/DyCoke) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=paper)](https://huggingface.co/papers/2411.15024)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/token_survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[When Tokens Talk Too Much: A Survey of Multimodal Long-Context Token Compression across Images, Videos, and Audios.]([[https://arxiv.org/abs/2109.15166](https://arxiv.org/abs/2411.15024](https://arxiv.org/abs/2507.20198))) \\
+Kele Shao*, `Keda Tao*`, Kejia Zhang, Sicheng Feng, Mu Cai, Yuzhang Shang, Haoxuan You, Can Qin, Yang Sui, Huan Wang. (* Equal Contribution)
+
+[**Project**](https://github.com/cokeshao/Awesome-Multimodal-Token-Compression) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=paper)](https://huggingface.co/papers/2507.20198)
+
+</div>
 </div>
 
 <div class='paper-box-text' markdown="1">
