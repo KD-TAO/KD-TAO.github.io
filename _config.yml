@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Keda Tao"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Xidian University"
-  location         : "Xian, China"
+  bio              : "Westlake University & Zhejiang University"
+  location         : "Hangzhou, China"
   employer         : 
   pubmed           : 
-  googlescholar    : 
-  email            : "KD.TAO.CC@outlook.com"
+  googlescholar    : "https://scholar.google.com/citations?user=ek8xaLUAAAAJ&hl=zh-CN"
+  email            : "KD.TAO@outlook.com"
   researchgate     : 
   uri              : 
   bitbucket        :
