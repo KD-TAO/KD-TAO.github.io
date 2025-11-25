@@ -42,24 +42,26 @@ My research interests include:
 
 # 📝 Publications 
 
-### English 
----
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/OmniZip.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models.](https://arxiv.org/abs/2109.15166) \\
 `Keda Tao`, Kele Shao, Bohan Yu, Weiqiang Wang, Jian Liu, Huan Wang.
 
-[**Project**]([https://portaspeech.github.io/](https://github.com/KD-TAO/OmniZip)) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/papers/2511.14582)
+[**Project**](https://github.com/KD-TAO/OmniZip) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=paper)](https://huggingface.co/papers/2511.14582)
 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Soptlight</div><img src='images/MGFR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
--	`Keda Tao`, Jinjin Gu, Yulun Zhang, Xiucheng Wang, Nan cheng. Overcoming False Illusions in Blind Face Restoration with Multi-Modal Guided Diffusion Model. [ICLR](https://arxiv.org/abs/2410.04161), 2025. (Spotlight)
-[[Github]](https://github.com/KD-TAO/MGBFR)
+[Overcoming False Illusions in Blind Face Restoration with Multi-Modal Guided Diffusion Model.]([https://arxiv.org/abs/2109.15166](https://arxiv.org/abs/2410.04161)) **Spotlight**\\
+`Keda Tao`, Jinjin Gu, Yulun Zhang, Xiucheng Wang, Nan Cheng.
 
+[**Project & Reface-HQ Dataset**](https://github.com/KD-TAO/MGFR)
+
+</div>
 </div>
 
 <div class='paper-box-text' markdown="1">
