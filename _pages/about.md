@@ -67,7 +67,7 @@ My research interests include:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/DyCoke.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DyCoke: Dynamic Compression of Tokens for Fast Video Large Language Models.]([https://arxiv.org/abs/2109.15166](https://arxiv.org/abs/2411.15024)) \\
+[DyCoke: Dynamic Compression of Tokens for Fast Video Large Language Models.](https://arxiv.org/abs/2411.15024)) \\
 `Keda Tao`, Can Qin, Haoxuan Yu, Yang Sui, Huan Wang.
 
 [**Project**](https://github.com/KD-TAO/DyCoke) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=paper)](https://huggingface.co/papers/2411.15024)
