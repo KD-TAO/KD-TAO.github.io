@@ -44,10 +44,18 @@ My research interests include:
 
 ### English 
 ---
-<div class='paper-box-text' markdown="1">
+<!-- <div class='paper-box-text' markdown="1">
 
 -	`Keda Tao`, Kele Shao, Bohan Yu, Weiqiang Wang, Jian liu, Huan Wang . OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models. [[arXiv]](https://arxiv.org/abs/2511.14582), 2025.
 
+</div> -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/OmniZip.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models.](https://arxiv.org/abs/2109.15166) \\
+`Keda Tao`, Kele Shao, Bohan Yu, Weiqiang Wang, Jian Liu, Huan Wang.
+</div>
 </div>
 
 <div class='paper-box-text' markdown="1">
