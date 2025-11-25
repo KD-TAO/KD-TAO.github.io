@@ -75,7 +75,7 @@ My research interests include:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/token_survey.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Survey</div><img src='images/token_survey.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When Tokens Talk Too Much: A Survey of Multimodal Long-Context Token Compression across Images, Videos, and Audios.]([[https://arxiv.org/abs/2109.15166](https://arxiv.org/abs/2411.15024](https://arxiv.org/abs/2507.20198))) \\
