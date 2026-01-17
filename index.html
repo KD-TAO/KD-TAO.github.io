@@ -1,0 +1,535 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Keda Tao</title>
+
+    <meta name="author" content="Keda Tao">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍑</text></svg>">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+      /* 全局设置 */
+      body {
+        background-color: #f4f1ee; 
+        font-family: 'Comic Neue', cursive, sans-serif !important;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+      
+      table, p, h3, h4, h5, h6, a, li, span, div {
+        font-family: 'Comic Neue', cursive, sans-serif !important;
+        font-size: 16px; 
+      }
+
+      p {
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+      }
+
+      h1, h2 {
+        font-family: 'Comic Neue', cursive, sans-serif !important;
+        font-size: 1.7em; 
+        font-weight: bold;
+        color: #7B3F00;
+        margin-bottom: 12px;
+        margin-top: 20px;
+      }
+      
+      .papertitle {
+        font-size: 1.1em !important;
+        font-weight: 700 !important;
+        color: #0044cc; 
+      }
+
+      /* News 区域 */
+      .news-scroll-box {
+        height: 250px;       
+        overflow-y: scroll;  
+        padding: 0;      
+        margin-bottom: 10px;
+      }
+
+      /* 【修改点】Publications 滚动区域 */
+      .publications-scroll-box {
+        /* max-height 控制最大高度，1000px 足够长，超过出滚轮 */
+        max-height: 1500px;       
+        overflow-y: scroll;  
+        padding: 0;      
+        margin-bottom: 20px;
+      }
+      
+      .news-list {
+        list-style-type: disc; 
+        padding-left: 20px;
+        margin-left: 5px; 
+        margin-top: 5px;
+      }
+
+      .news-list li {
+        margin-bottom: 6px; 
+        line-height: 1.35;   
+        font-size: 15px;    
+      }
+
+      .date-badge {
+        background-color: #5cb85c;
+        color: white;
+        padding: 1px 5px; 
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 14px;  
+        margin-right: 4px;
+      }
+
+      a { color: #1772d0; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      .service-list {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-left: 5px;
+        line-height: 1.4;
+      }
+      .service-list li {
+        margin-bottom: 4px;
+      }
+      
+      .name-header {
+        font-size: 28px !important; 
+        font-weight: bold; 
+        margin-bottom: 10px;
+      }
+
+      /* 图片上方 Tag 样式 */
+      .paper-tag {
+        background-color: #7E6A60; /* 深棕色背景，可自行修改 */
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px 0;
+        border-radius: 4px 4px 0 0; 
+        width: 100%;
+        line-height: 1.2;
+      }
+
+      /* 图片样式调整 */
+      .paper-img {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 0 0 4px 4px; 
+        border: 1px solid #eee;
+        border-top: none; 
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name-header" style="text-align: center;">
+                  Keda Tao
+                </p>
+                <p>
+I'm Keda Tao, I am a first-year PhD student at Westlake University in a joint program with Zhejiang University, advised by <b style="color:#a10000;font-weight:bold;">Prof. Huan Wang</b>. Previously, I received my B.E. degree from XDU in 2025.
+                </p>
+                <p>
+My research interest is multimodal large language model (e.g., <b style="color:#a10000;font-weight:bold;">VideoLLMs and OmniLLMs</b>), Efficient AI, low-level vision and generative model.
+               </p>
+                <p>
+                  I am currently working as a research intern at <b style="color:#a10000;font-weight:bold;">Ant Group</b>, focuing on the omnimodal understanding, agent and agentic model training. I am deeply grateful to my advisor and all collaborators for their guidance and support. Please feel free to reach out to me via email for any inquiries or potential collaborations.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:taokeda@westlake.edu.cn">Email</a> &nbsp;/&nbsp;
+                  <a href="https://westlake-encode-lab.github.io/">ENCODE LAB</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=ek8xaLUAAAAJ&hl=zh-CN">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/KD-TAO/">Github</a>
+                </p>
+                <!-- <p style="text-align:center;font-weight:bold;color:red; font-size:15px;">
+                  notice
+                </p> -->
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/keda.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/keda.png" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:10px 16px;width:100%;vertical-align:middle">
+                <h2>🔥 News</h2>
+                <div class="news-scroll-box">
+                  <ul class="news-list">
+                    <li>
+                        <span class="date-badge">2025.12</span>
+                        <strong>[2025 Final Update]</strong> 🤖 <b>[Preprint]</b> We release a new omnimodal understanding work: <a href="https://arxiv.org/abs/2512.23646">OmniAgent</a>. OmniAgent is an audio-guided active perception agent for omnimodal audio-video understanding. We outperform Gemini2.5-Flash, GPT-4o, and Qwen3-Omni on several benchmarks. <a href="https://kd-tao.github.io/OmniAgent/">[Website]</a>
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.11</span>
+                        🌟 <b>[Preprint]</b> A new work: <a href="https://arxiv.org/abs/2511.14582">OmniZip</a> has been released. OmniZip is an audio-guided token compression method for fast OmniLLMs. <a href="https://github.com/KD-TAO/OmniZip">[Repo]</a>
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.10</span>
+                        <b>[Preprint]</b> We have released the preprint of <a href="https://arxiv.org/abs/2510.18269">StreamingTom</a> and <a href="https://arxiv.org/abs/2510.08525">RLKV</a>.
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.09</span>
+                        🎉 <b>[NeurIPS'25]</b> <a href="https://arxiv.org/abs/2501.19164">Poison as Cure</a> and <a href="https://arxiv.org/abs/2505.21334">HoliTom</a> are accepted by NeurIPS 2025!
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.08</span>
+                        🌟 <b>[Survey]</b> We are excited to present the first systematic review of multimodal long-context token compression methods. <a href="https://arxiv.org/abs/2507.20198">[arXiv]</a> <a href="https://github.com/cokeshao/Awesome-Multimodal-Token-Compression">[Repo]</a>
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.07</span>
+                        🎉 <b>[Award]</b> Received the <strong>"2025 Westlake University Xinrui Award" (西湖大学博士研究生新锐奖)</strong>.
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.05</span>
+                        <b>[Preprint]</b> We have released the preprint of <a href="https://arxiv.org/abs/2505.21334">HoliTom</a>: "Holistic Token Merging for Fast Video Large Language Models".
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.03</span>
+                        <b>[Preprint]</b> We introduce <a href="https://arxiv.org/abs/2503.16257">VidKV</a>, a plug-and-play 1.x-bit KV Cache quantization for VideoLLMs. <a href="https://github.com/KD-TAO/VidKV">[Code]</a>
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.02</span>
+                        🎉 <b>[CVPR'25]</b> <a href="https://github.com/KD-TAO/DyCoke">DyCoke</a> is accepted by CVPR'25! DyCoke is a plug-and-play token compression method for fast VideoLLMs.
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.02</span>
+                        <b>[Preprint]</b> We have released the preprint of our paper <a href="https://arxiv.org/abs/2501.19164">Poison as Cure</a>. We propose a novel visual adversarial perturbation (VAP) method to mitigate hallucination.
+                    </li>
+                    <li>
+                        <span class="date-badge">2025.01</span>
+                        🎉 <b>[ICLR'25]</b> <a href="https://arxiv.org/html/2410.04161v2">MGFR</a> is accepted by ICLR 2025 <strong>Spotlight</strong>! The <a href="https://github.com/KD-TAO/MGFR">Reface-HQ</a> dataset is also released!
+                    </li>
+                    <li>
+                        <span class="date-badge">2024.11</span>
+                        <b>[Preprint]</b> We have released the preprint of our paper <a href="https://github.com/KD-TAO/DyCoke">DyCoke</a>.
+                    </li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </tbody></table>
+          
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:10px 16px;width:100%;vertical-align:middle">
+                <h2>📖 Publications</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          
+          <div class="publications-scroll-box">
+            <table style="width:100%;border:0px;border-spacing:0px 20px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+            <tr>
+              <td style="padding:10px;width:40%;vertical-align:top">
+                <div class="paper-tag">arXiv 2025</div>
+                <img src="images/images/OmniAgent.png" alt="OmniAgent" class="paper-img">
+              </td>
+              <td style="padding:10px;width:60%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2512.23646">
+                  <span class="papertitle">OmniAgent: Audio-Guided Active Perception Agent for Omnimodal Audio-Video Understanding</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                <strong>Keda Tao</strong>, Wenjie Du, Bohan Yu, Weiqiang Wang, Jian Liu, Huan Wang
+                </div>
+                <em style="color:#7E6A60;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                  [<a href="https://kd-tao.github.io/OmniAgent/">Project</a>]
+                  [<a href="https://huggingface.co/papers/2512.23646">Hugging Face</a>]
+                  [<a href="https://arxiv.org/abs/2512.23646">arXiv</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:10px;width:40%;vertical-align:top">
+                <div class="paper-tag">arXiv 2025</div>
+                <img src="images/images/OmniZip.png" alt="OmniZip" class="paper-img">
+              </td>
+              <td style="padding:10px;width:60%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2109.15166">
+                  <span class="papertitle">OmniZip: Audio-Guided Dynamic Token Compression for Fast Omnimodal Large Language Models</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                <strong>Keda Tao</strong>, Kele Shao, Bohan Yu, Weiqiang Wang, Jian Liu, Huan Wang
+                </div>
+                <em style="color:#7E6A60;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                  [<a href="https://github.com/KD-TAO/OmniZip">Project</a>]
+                  [<a href="https://huggingface.co/papers/2511.14582">Hugging Face</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:10px;width:40%;vertical-align:top">
+                <div class="paper-tag">ICLR 2025 Spotlight</div>
+                <img src="images/images/MGFR.png" alt="MGFR" class="paper-img">
+              </td>
+              <td style="padding:10px;width:60%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2410.04161">
+                  <span class="papertitle">Overcoming False Illusions in Blind Face Restoration with Multi-Modal Guided Diffusion Model</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                <strong>Keda Tao</strong>, Jinjin Gu, Yulun Zhang, Xiucheng Wang, Nan Cheng
+                </div>
+                <em style="color:#7E6A60;">ICLR, 2025</em> &nbsp <font color="red" style="font-size:14px;"><strong>(Spotlight)</strong></font>
+                <br>
+                <div style="margin-top:6px;">
+                  [<a href="https://github.com/KD-TAO/MGFR">Project & Reface-HQ Dataset</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:10px;width:40%;vertical-align:top">
+                <div class="paper-tag">CVPR 2025</div>
+                <img src="images/images/DyCoke.png" alt="DyCoke" class="paper-img">
+              </td>
+              <td style="padding:10px;width:60%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2411.15024">
+                  <span class="papertitle">DyCoke: Dynamic Compression of Tokens for Fast Video Large Language Models</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                <strong>Keda Tao</strong>, Can Qin, Haoxuan Yu, Yang Sui, Huan Wang
+                </div>
+                <em style="color:#7E6A60;">CVPR, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                  [<a href="https://github.com/KD-TAO/DyCoke">Project</a>]
+                  [<a href="https://huggingface.co/papers/2411.15024">Hugging Face</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:10px;width:40%;vertical-align:top">
+                <div class="paper-tag">arXiv 2025</div>
+                <img src="images/images/token_survey.png" alt="Survey" class="paper-img">
+              </td>
+              <td style="padding:10px;width:60%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2507.20198">
+                  <span class="papertitle">When Tokens Talk Too Much: A Survey of Multimodal Long-Context Token Compression across Images, Videos, and Audios</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+        Kele Shao*, <strong>Keda Tao*</strong>, Kejia Zhang, Sicheng Feng, Mu Cai, Yuzhang Shang, Haoxuan You, Can Qin, Yang Sui, Huan Wang
+                </div>
+                <em style="color:#7E6A60;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                  [<a href="https://github.com/cokeshao/Awesome-Multimodal-Token-Compression">Project</a>]
+                  [<a href="https://huggingface.co/papers/2507.20198">Hugging Face</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2503.16257">
+                  <span class="papertitle">Plug-and-Play 1.x-Bit KV Cache Quantization for Video Large Language Models</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                <strong>Keda Tao</strong>, Haoxuan Yu, Yang Sui, Can Qin, Huan Wang
+                </div>
+                <em style="color:#7E6A60;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2503.16257">arXiv</a>] [<a href="https://github.com/KD-TAO/VidKV">Github</a>] [<a href="https://kd-tao.github.io/VidKV.Web.io/">Page</a>]
+                </div>
+              </td>
+            </tr>
+            
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2501.19164">
+                  <span class="papertitle">Poison as Cure: Visual Noise for Mitigating Object Hallucinations in LVMs</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Kejia Zhang, <strong>Keda Tao</strong>, Jiasheng Tang, Huan Wang
+                </div>
+                <em style="color:#7E6A60;">NeurIPS, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2501.19164">arXiv</a>] [<a href="https://github.com/KejiaZhang-Robust/VAP">Github</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2505.21334">
+                  <span class="papertitle">HoliTom: Holistic Token Merging for Fast Video Large Language Models</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Kele Shao, <strong>Keda Tao</strong>, Can Qin, Haoxuan You, Yang Sui, Huan Wang
+                </div>
+                <em style="color:#666;">NeurIPS, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2505.21334">arXiv</a>] [<a href="https://github.com/cokeshao/HoliTom">Github</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2510.18269">
+                  <span class="papertitle">StreamingTOM: Streaming Token Compression for Efficient Video Understanding</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Xueyi Chen, <strong>Keda Tao</strong>, Kele Shao, Huan Wang
+                </div>
+                <em style="color:#666;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2510.18269">arXiv</a>] [<a href="https://yige24.github.io/StreamingTOM/">Project Page</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2507.21584">
+                  <span class="papertitle">TARS: MinMax Token-Adaptive Preference Strategy for MLLM Hallucination Reduction</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Kejia Zhang, <strong>Keda Tao</strong>, Zhiming Luo, Chang Liu, Jiasheng Tang, Huan Wang
+                </div>
+                <em style="color:#666;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2507.21584">arXiv</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2510.08525">
+                  <span class="papertitle">Which Heads Matter for Reasoning? RL-Guided KV Cache Compression</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Wenjie Du, Li Jiang, <strong>Keda Tao</strong>, Xue Liu, Huan Wang
+                </div>
+                <em style="color:#666;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2510.08525">arXiv</a>] [<a href="https://kurt232.github.io/RLKV_Web/">Project Page</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <span class="papertitle">RadioDiff: An Effective Generative Diffusion Model for Sampling-Free Dynamic Radio Map Construction</span>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Xiucheng Wang*, <strong>Keda Tao*</strong>, Nan Cheng, Zhisheng Yin, Zan Li, Yuan Zhang, Xuemin (Sherman) Shen
+                </div>
+                <em style="color:#666;">TCCN, 2024</em>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2505.23130">
+                  <span class="papertitle">PhotoArtAgent: Intelligent Photo Retouching with Language Model-Based Artist Agents</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Haoyu Chen, <strong>Keda Tao</strong>, Yizao Wang, Xinlei Wang, Lei Zhu, Jinjin Gu
+                </div>
+                <em style="color:#666;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2505.23130">arXiv</a>]
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="padding:10px;width:100%;vertical-align:top">
+                <a href="https://arxiv.org/abs/2412.00143">
+                  <span class="papertitle">Is Oracle Pruning the True Oracle?</span>
+                </a>
+                <br>
+                <div style="margin-top:6px; margin-bottom:6px; color:#444;">
+                Sicheng Feng, <strong>Keda Tao</strong>, Huan Wang
+                </div>
+                <em style="color:#666;">arXiv, 2025</em>
+                <br>
+                <div style="margin-top:6px;">
+                [<a href="https://arxiv.org/abs/2412.00143">arXiv</a>] [<a href="https://fscdc.github.io/Oracle-Pruning-Sanity-Check/">Github</a>]
+                </div>
+              </td>
+            </tr>
+            </tbody></table>
+          </div>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:10px 16px;width:100%;vertical-align:middle">
+                <h2>🌟 Professional Services</h2>
+                <ul class="service-list">
+                  <li>
+                    <strong>Journal Reviewer</strong> - TMM <em>etc.</em>
+                  </li>
+                  <li>
+                    <strong>Conference Reviewer</strong> - CVPR, ECCV, ICCV, ICLR, PRCV <em>etc.</em>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small; color:#999;">
+                  This webpage is built upon the <a href="https://kurt232.github.io/" style="color:#999;">source code</a> of <a href="https://kurt232.github.io/" style="color:#999;">Wenjie Du</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <div style="width:100%; text-align:center; margin-top: 20px;">
+             <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ffnC4TAuWuAbM-DIAxTGrIojOpf1jHuCdpMef1f4x5A&cl=ffffff&w=a"></script>
+          </div>
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
